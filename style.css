@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.wrapper {
+    width: 60vmin;
+    background-color: black;
+    padding: 50px 40px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 100px;
+}
+
+#joke {
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#generate {
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightgreen;
+    font-weight: 600;
+    cursor: pointer;
+}
